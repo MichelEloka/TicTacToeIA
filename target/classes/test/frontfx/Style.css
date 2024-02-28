@@ -1,0 +1,70 @@
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #19125466; /* Couleur de fond des boutons */
+    -fx-font-size: 20px; /* Changer la taille du texte */
+    -fx-text-fill: #2968d4f7; /* Changer la couleur du texte */
+
+}
+.message{
+    -fx-font-size: 60px;
+    
+    -fx-font-family: "Choco Taste Trial", sans-serif;
+
+
+       
+    
+}
+.AcText{
+
+    -fx-font-size: 100px;
+    
+    -fx-font-family: "Apocalypse Grunge", sans-serif;
+
+}
+.AcText2{
+
+    -fx-font-size: 60px;
+    
+    -fx-font-family: "Scratches", sans-serif;
+    -fx-fill: #417be1f7;
+
+}
+ .HelpButton{
+    -fx-alignment: center;
+    -fx-background-color: #3c2ad766;
+    -fx-font-weight: bold; /* Met le texte en gras */
+    -fx-min-width: 100px; /* Définit la largeur minimale du bouton */
+    -fx-min-height: 40px; /* Définit la hauteur minimale du bouton */
+    -fx-alignment: center; 
+    
+ }
+
+/* Style pour la croix */
+.line {
+    -fx-stroke: #2968d4f7; /* Couleur de la croix */
+    -fx-stroke-width: 6px;
+
+}
+
+.gridPane {
+    -fx-alignment: center; /* Centrer le contenu du GridPane */
+}
+.VBox {
+    -fx-alignment: center; /* Centrer le contenu du GridPane */
+}
+
+/* Style pour le cercle */
+.Circlee {
+    -fx-stroke: #9abcf5f7; /* Couleur du contour du cercle */
+    -fx-fill: transparent; /* Remplissage transparent pour le cercle */
+    -fx-stroke-width: 6px;
+}
+
+.root {
+    -fx-background-color: #000769b0; /* Couleur de l'arrière-plan */
+}
+
+.button:hover {
+    -fx-background-color: #3a2ead66; /* Changement de couleur lors du survol */
+    -fx-cursor: hand; /* Changement du curseur lors du survol */
+}
